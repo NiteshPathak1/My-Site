@@ -1,0 +1,112 @@
+body{
+    color: #40514E;
+    ;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+}
+h1{
+    color: #579BB1;
+    margin-top: 0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+}
+h2{
+    color: #579BB1;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+h3{
+    color: #82AAE3;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-container{
+    background-color: #B5D5C5;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    margin: 100px 0 100px 0;
+  
+}
+.bottom-container{
+    margin: 100px 0 100px 0;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 50px;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 50px;
+    bottom: 600px;
+}
+.mountains{
+    height: 600px;
+    width: 600px;
+}
+.des{
+    text-decoration-line: underline;
+}
+.designer{
+    color: #579BB1;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+.bike-img{
+    width: 30%;
+    float: right;
+    margin-right: 30px;
+}
+.skills-img{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+p{
+    line-height: 1.5;
+}
+
+
+hr{
+    border: dotted #E7F6F2 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.btn {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #97c0d9);
+    background-image: -moz-linear-gradient(top, #000000, #97c0d9);
+    background-image: -ms-linear-gradient(top, #000000, #97c0d9);
+    background-image: -o-linear-gradient(top, #000000, #97c0d9);
+    background-image: linear-gradient(to bottom, #000000, #97c0d9);
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #000000);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #000000);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #000000);
+    background-image: -o-linear-gradient(top, #3cb0fd, #000000);
+    background-image: linear-gradient(to bottom, #3cb0fd, #000000);
+    text-decoration: none;
+  }
